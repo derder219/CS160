@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:twittersdk="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/homepage_background"
+
+    >
+
+
+    <TextView
+        android:id="@+id/appLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PerkUp"
+        android:textSize="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FF6E08"
+
+        />
+
+
+    <Button
+        android:id="@+id/enterAR"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/homepage_button_shape"
+        android:paddingLeft="10px"
+        android:paddingRight="10px"
+        android:text="Enter the AR"
+        android:textColor="#EDF8C4"
+        android:layout_below="@+id/appLogo"
+        android:layout_marginTop="80dp"
+        />
+
+    <Button
+        android:id="@+id/chatWithPenny"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/homepage_button_shape"
+        android:paddingLeft="10px"
+        android:paddingRight="10px"
+        android:text="Talk to Penny"
+        android:textColor="#EDF8C4"
+        android:layout_below="@+id/enterAR"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/viewProgress"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/homepage_button_shape"
+        android:layout_below="@id/chatWithPenny"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10px"
+        android:paddingRight="10px"
+        android:text="View Progress"
+        android:textColor="#EDF8C4" />
+
+
+
+</RelativeLayout>

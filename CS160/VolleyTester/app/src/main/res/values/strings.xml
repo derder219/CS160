@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">VolleyTester</string>
+    <string name="VolleyResponseHere">Volley Response Here</string>
+</resources>

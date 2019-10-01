@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Prog2B</string>
+    <string name="get_location">Get Location</string>
+    <string name="location">Location</string>
+    <string name="no_access">No Location Access Granted</string>
+    <string name="access">Location Access Granted</string>
+    <string name="button_works">Click Worked!</string>
+    <string name="null_location">Null Location Found</string>
+</resources>
